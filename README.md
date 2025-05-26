@@ -3,3 +3,4 @@ live_assistant_update2.py 第二版本，在第一版本基础上集成记事本
 live_assistant_update3.py 第三版本，在第二版本基础上集成计时功能，button实现计时的手动暂停和继续，同时当后台窗口识别到bilibili用户端时，计时会强制暂停，窗口关闭计时继续（更适合爱摸鱼宝宝体质的计时器喵）
 config.ini 用于保存一些界面设置，同时上一次记事本中的信息将被保存在这里，所以只要不删除，每次重启记事本信息是不会丢失的
 debug_qqmusic_title.py 测试程序，这个程序可以用来读取并展示当前窗口的所有类名和标题，所以哪怕你用的网易云音乐、抖音、无畏契约等等，都可以用这个程序获取类名和标题，然后修改对应代码，得到你的专属Assistant！
+环境要求：pip install pystray pillow pywin32
